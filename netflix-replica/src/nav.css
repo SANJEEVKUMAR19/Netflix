@@ -1,0 +1,43 @@
+.nav{
+    position: fixed;
+    top:0;
+    padding: 20px;
+   
+    width:100%;
+    height: 30px;
+    z-index:1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav1{
+    display: flex;
+    
+}
+.nav1 li{
+    margin-left: 100px;
+    padding-left: 60px;
+    list-style: none;
+}
+.nav1 li a {
+    color: whitesmoke;
+    text-decoration: none;
+   font-weight: bold;
+   font-size: 1rem;
+   letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.nav1 li:hover a{
+      color: #e50914;
+}
+
+.nav_logo{
+    position: fixed;
+    left:20;
+    width: 80px;
+    object-fit: contain;
+}
+.nav_black{
+    background: black;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
